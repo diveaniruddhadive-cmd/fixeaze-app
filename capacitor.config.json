@@ -1,0 +1,22 @@
+{
+  "appId": "com.fixeaze.app",
+  "appName": "Fixeaze",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": [
+      "*.firebaseio.com",
+      "*.googleapis.com",
+      "*.cloudinary.com",
+      "*.openstreetmap.org",
+      "*.jsdelivr.net",
+      "*.cloudflare.com"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  }
+}
